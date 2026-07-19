@@ -1,0 +1,52 @@
+==================================================================
+📊 LAYİHƏ: JOBERA.AZ — BİZNES MODELİ (KOPYALAMAQ ÜÇÜN)
+==================================================================
+
+1. DƏYƏR TƏKLİFİ (VALUE PROPOSITION)
+------------------------------------------------------------------
+* Şirkətlər (HR) üçün: Vakansiyaların ödənişsiz yerləşdirilməsi və avtomatik sosial şəbəkə inteqrasiyası ilə kütləvi yayılması. "CV zibilliyi" olmadan namizədlərin öncədən yazılmış səsli/videolu təqdimatları, coğrafi yerləşməsi, sağlamlıq və maliyyə etibarlılığı bəyannamələrinə əsasən 5 saniyədə hədəf namizədin tapılması (Pre-screening).
+* İş Axtaranlar (Namizədlər) üçün: Tamamilə ödənişsiz CV və profil yerləşdirmə, öz sahəsinə uyğun real vakansiyalar paylaşılan an HR-a avtomatik tövsiyə olunma şansı və yalnız onu bəyənən real şirkət tapıldıqda müəyyən edilən ədalətli, çevik abunəlik sistemi.
+
+2. MÜŞTƏRİ SƏHİFƏLƏRİ (CUSTOMER SEGMENTS)
+------------------------------------------------------------------
+* B2B (Şirkətlər): HR agentlikləri, daxili HR departamentləri, autsorsinq şirkətləri, kütləvi işçi qəbulu edən sektorlar (Retail, Logistika, Restoran şəbəkələri, Bank və Maliyyə qurumları).
+* B2C (Fərdlər): Aktiv iş axtaranlar, tələbələr, səsli/videolu özünü təqdimetmə bacarığı yüksək olan müasir gənclər, filtrasiya kriteriyalarına (ünvan, maliyyə keçmişi və s.) güvənən namizədlər.
+
+3. PAYLANMA KANALLARI (CHANNELS)
+------------------------------------------------------------------
+* Jobera.az Veb-Platforması: Mobil və masaüstü brauzerlərə tam uyğunlaşdırılmış əsas sayt.
+* Multiposting API Sistemi: Sistem tərəfindən idarə olunan avtomatlaşdırılmış Instagram, Telegram və LinkedIn rəsmi kanalları.
+* Bildiriş Şəbəkəsi: Namizədlərlə birbaşa əlaqə üçün SMS Gateway və Telegram Bot inteqrasiyası.
+
+4. MÜŞTƏRİ ƏLAQƏLƏRİ (CUSTOMER RELATIONSHIPS)
+------------------------------------------------------------------
+* Etibar və Güvən Ekosistemi: Müsahibədən sonra HR-ların namizədlərə verdiyi Reytinq (Ulduz) və Rəy (Comment) sistemi sayəsində daxili nəzarət.
+* Data Gizliliyi (Blur Mexanizmi): Ödəniş və təsdiq prosesinə qədər namizədlərin ad və əlaqə məlumatlarının tam qorunması.
+* Avtomatlaşdırılmış Özünəxidmət (Self-Service): İnsan müdaxiləsi olmadan işləyən tam rəqəmsal istifadəçi panelləri.
+
+5. GƏLİR MODELİ VƏ TARİFLƏR (REVENUE STREAMS)
+------------------------------------------------------------------
+* A PAKET: "VIP Reytinq" Modeli (Öncədən Ödəniş - Namizəd üçün):
+  - Namizəd aylıq sabit kiçik bir abunə haqqı ödəyir. 
+  - Sistem onun profilini müvafiq kateqoriyada ən ön sıraya (TOP) çıxarır və bütün HR-lara kontaktları BLURSUZ şəkildə birbaşa təqdim edir.
+
+* B PAKET: "Müddətli Blur Qaldırılması" (Sonradan Ödəniş - Namizəd üçün):
+  - HR anonim (blurlu) profili bəyənib əlaqə düyməsini sıxdıqda namizədə bildiriş gedir. Namizəd yalnız real təklif olduqda ödəniş edir:
+    * 1 Günlük Paket: Kontaktlar 24 saatlıq açılır.
+    * 15 Günlük Paket: Kontaktlar 15 gün boyunca hamıya görünür.
+    * 1 Aylıq Paket: Kontaktlar 30 gün boyunca tamamilə blursuz rejimə keçir.
+
+* GƏLƏCƏK PLAN (B2B Premium): Şirkətlər üçün aylıq səsli/videolu CV baxış limitini artırmaq üçün "Premium HR" paketlərinin satışı.
+
+6. ƏSAS FƏALİYYƏTLƏR VƏ RESURSLAR (KEY ACTIVITIES & RESOURCES)
+------------------------------------------------------------------
+* Texnoloji İnfrastruktur: Platformanın proqram təminatının, video/səs saxlanılması üçün serverlərin (Cloud) fasiləsiz işləməsinin təmin edilməsi.
+* Sosial Şəbəkə Marketinqi: Sosial şəbəkə hesablarının aktiv saxlanılması və avto-post sisteminin idarə edilməsi.
+* Data Bazası: Kateqoriyalara ayrılmış aktiv namizəd və vakansiya datası.
+
+7. STRATEJİ TƏRƏFDAŞLAR VƏ XƏRCLƏR (KEY PARTNERS & COSTS)
+------------------------------------------------------------------
+* Tərəfdaşlar: Proqramlaşdırma komandası, Onlayn Ödəniş Provayderləri (Paşa Bank, GoldenPay və s.), SMS Gateway şirkətləri.
+* İlkin Xərclər: Saytın sıfırdan dizaynı və kodlaşdırılması (Texniki Tapşırıq əsasında proqramçı xərcləri).
+* Davamlı Xərclər: Server (Hosting) və bulut (Cloud) saxlama xərcləri, SMS bildiriş paketləri və rəqəmsal marketinq (Google, Meta reklamları).
+==================================================================

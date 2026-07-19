@@ -1,0 +1,30 @@
+export const BAKU_DISTRICTS = [
+  "Nəsimi",
+  "Nərimanov",
+  "Nizami",
+  "Yasamal",
+  "Səbail",
+  "Xətai",
+  "Suraxanı",
+  "Binəqədi",
+  "Qaradağ",
+  "Sabunçu",
+  "Pirallahı",
+];
+
+export const BAKU_METRO_STATIONS = [
+  "28 May",
+  "Gənclik",
+  "Nərimanov",
+  "Bakmil",
+  "Ulduz",
+  "Koroğlu",
+  "Qara Qarayev",
+  "Nəsimi",
+  "Azadlıq",
+  "Dərnəgül",
+  "İçərişəhər",
+  "Sahil",
+  "Xətai",
+  "Həzi Aslanov",
+];

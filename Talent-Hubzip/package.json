@@ -1,0 +1,35 @@
+{
+  "name": "workspace",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "preinstall": "sh -c 'rm -f package-lock.json yarn.lock; case \"$npm_config_user_agent\" in pnpm/*) ;; *) echo \"Use pnpm instead\" >&2; exit 1 ;; esac'",
+    "build": "pnpm run typecheck && pnpm -r --if-present run build",
+    "typecheck:libs": "tsc --build",
+    "typecheck": "pnpm run typecheck:libs && pnpm -r --filter \"./artifacts/**\" --filter \"./scripts\" --if-present run typecheck",
+    "db:push": "pnpm --filter @workspace/db exec drizzle-kit push --schema ./src/schema --dialect postgresql --url \"%DATABASE_URL%\"",
+    "seed:packages": "pnpm --filter @workspace/scripts run seed-packages",
+    "seed:admin": "pnpm --filter @workspace/scripts run seed-admin",
+    "seed:demo": "pnpm --filter @workspace/scripts run seed-demo",
+    "dev:api": "pnpm --filter @workspace/api-server run build && pnpm --filter @workspace/api-server run start",
+    "dev:web": "pnpm --filter @workspace/jobera run dev",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "private": true,
+  "dependencies": {
+    "@esbuild/win32-x64": "0.27.3",
+    "@replit/connectors-sdk": "^0.4.1",
+    "@rollup/rollup-win32-x64-msvc": "^4.62.2",
+    "@tailwindcss/oxide-win32-x64-msvc": "4.3.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/supertest": "^6.0.3",
+    "express": "^5.2.1",
+    "prettier": "^3.8.4",
+    "supertest": "^7.2.2",
+    "typescript": "~5.9.3",
+    "vitest": "^3.2.7"
+  }
+}

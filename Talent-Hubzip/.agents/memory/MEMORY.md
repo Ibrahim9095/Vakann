@@ -1,0 +1,2 @@
+- [Jobera.az architecture](jobera-architecture.md) — dual-panel job platform with Express API + React-Vite; key design decisions documented.
+- [DB declarations rebuild](db-declarations.md) — DB package needs `npx tsc -p tsconfig.json` from `lib/db/` when schema changes; dist/schema/index.d.ts goes empty otherwise.
