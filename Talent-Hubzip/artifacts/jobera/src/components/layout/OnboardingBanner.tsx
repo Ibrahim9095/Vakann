@@ -4,7 +4,9 @@ import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Button } from "@/components/ui/button";
 import { Building2, UserCircle } from "lucide-react";
 
-const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
+const BASE = import.meta.env.PROD
+  ? "https://vakann-api.onrender.com"
+  : "";
 
 type OnboardingBannerProps =
   | { type: "hr" }

@@ -59,7 +59,9 @@ export default function ProfileEditor() {
   const createMutation = useCreateCandidate()
   const updateMutation = useUpdateCandidate()
 
-  const BASE = import.meta.env.BASE_URL.replace(/\/$/, "")
+  const BASE = import.meta.env.PROD
+  ? "https://vakann-api.onrender.com"
+  : "";
 
   useEffect(() => {
     const token = localStorage.getItem("jobera_token")

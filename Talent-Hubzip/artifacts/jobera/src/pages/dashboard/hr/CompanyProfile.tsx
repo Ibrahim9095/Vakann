@@ -32,7 +32,9 @@ export default function CompanyProfile() {
   const createMutation = useCreateCompany()
   const updateMutation = useUpdateCompany()
 
-  const BASE = import.meta.env.BASE_URL.replace(/\/$/, "")
+  const BASE = import.meta.env.PROD
+  ? "https://vakann-api.onrender.com"
+  : "";
 
   useEffect(() => {
     const token = localStorage.getItem("jobera_token")
