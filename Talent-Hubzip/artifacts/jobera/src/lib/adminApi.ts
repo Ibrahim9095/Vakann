@@ -1,6 +1,8 @@
 // Admin API utility – plain fetch with auth token (no Orval hooks for admin routes)
 
-const BASE = `${import.meta.env.BASE_URL.replace(/\/$/, "")}/api`;
+const BASE = import.meta.env.PROD
+  ? "https://vakann-api.onrender.com/api"
+  : "/api";
 
 function getToken() {
   return localStorage.getItem("jobera_token");

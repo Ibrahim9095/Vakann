@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 
-const BASE = `${import.meta.env.BASE_URL.replace(/\/$/, "")}/api`;
+const BASE = import.meta.env.PROD
+  ? "https://vakann-api.onrender.com/api"
+  : "/api";
 
 export function useInterviewCounter() {
   const [value, setValue] = useState<number>(0);
