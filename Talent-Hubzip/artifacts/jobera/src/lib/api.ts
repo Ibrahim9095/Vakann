@@ -1,4 +1,8 @@
-const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
+const BASE =
+  import.meta.env.PROD
+    ? "https://vakann-api.onrender.com"
+    : "";
+    
 
 function authHeaders(): HeadersInit {
   const token = localStorage.getItem("jobera_token");
